@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -14,24 +14,53 @@
     />
   </head>
   <body>
+    <section class="signinsection">
+      <div class="signincontainer">
+        <i class="fa-solid fa-xmark"></i>
+        <div>
+          <img src="assets/images/logoshape.webp" alt="" />
+          <h2 style="color: white">Enter your Username</h2>
+          <p>
+            Create a username to sign up. You will be able to change it
+            afterwards.
+          </p>
+          <input type="text" placeholder="yourname@movies" />
+        </div>
+        <button>Continue</button>
+      </div>
+    </section>
     <header>
-      <p>movies</p>
-      <nav><button>English</button><button>Sign In</button></nav>
+      <a href="https://pitergkouni.github.io/IT1-final-project/"
+        ><img src="assets/images/logo.webp"
+      /></a>
+      <nav>
+        <div class="transContainer">
+          <button id="trans">
+            <i class="fa-solid fa-language"></i>
+            <p class="trans1text">English</p>
+            <i class="fa-solid fa-caret-down"></i>
+          </button>
+          <button>Norsk bokmål</button>
+        </div>
+        <button id="signUp">Sign Up</button>
+      </nav>
     </header>
     <section>
       <div>
         <h1>Watch what you love,</h1>
         <h1>without limits.</h1>
       </div>
-      <p style="font-size: 20px; color: var(--hvit-100); margin-bottom: 15px;">
+      <p style="font-size: 20px; color: var(--hvit-100); margin-bottom: 15px">
         Start your 30-day free trial. Cancel at any time.
       </p>
       <div>
         <p>Get started by making your account.</p>
-        <button>Get Started<i class="fa-solid fa-angle-right"></i></button>
+        <button class="getStarted">
+          Get Started<i class="fa-solid fa-angle-right"></i>
+        </button>
       </div>
     </section>
     <footer></footer>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
