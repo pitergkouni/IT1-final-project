@@ -21,7 +21,7 @@ html {
 }
 body {
   height: 100vh;
-  background-image: url(assets/images/indexBKG.webp);
+  background-image: url(assets/images/moviecatalog.webp);
   background-size: cover;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -201,7 +201,7 @@ input {
   align-self: center;
   color: var(--hvit-100);
 }
-.signincontainer > button {
+.signincontainer > a > button {
   margin-top: 20px;
   padding-block: 15px;
   border-radius: 10px;
