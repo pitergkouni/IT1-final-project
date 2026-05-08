@@ -4,6 +4,7 @@ nav {
 }
 header {
   position: absolute !important;
+  z-index: 1;
 }
 nav button {
   padding: 7px;
@@ -16,7 +17,7 @@ nav button {
 nav button:hover {
   background-color: var(--blaa-100);
 }
-nav>button:last-of-type {
+nav > button:last-of-type {
   border-radius: 100%;
   padding-block: 9px;
 }
