@@ -91,7 +91,6 @@ footer {
   font-size: 25px;
   font-weight: 900;
 }
-
 section div:last-of-type {
   display: flex;
   flex-direction: column;
@@ -157,12 +156,17 @@ section div:last-of-type {
 input {
   background-color: rgb(38, 38, 38);
   border: 1px solid var(--graa-50);
+
   padding: 18px;
   border-radius: 15px;
   font-size: 16px;
   width: 500px;
   align-self: center;
   color: var(--hvit-100);
+}
+input:focus {
+  outline: 1px solid var(--hvit-100);
+  border: 1px solid rgb(38, 38, 38);
 }
 .signincontainer > a {
   width: fit-content;
