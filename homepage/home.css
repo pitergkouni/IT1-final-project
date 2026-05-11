@@ -25,71 +25,6 @@ nav > button:nth-of-type(3) > i,
 nav > button:last-of-type > i {
   font-size: 20px;
 }
-.browse {
-  anchor-name: --menu-btn;
-}
-.dropdown {
-  position: absolute;
-  position-anchor: --menu-btn;
-  top: anchor(bottom);
-  right: anchor(right);
-  margin-top: 10px;
-  width: 200px;
-  height: 200px;
-  border: 1px solid var(--graa-25);
-  border-radius: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding: 10px;
-  gap: 10px;
-}
-.dropdown div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 7px;
-  gap: 5px;
-  cursor: pointer;
-  transition: 0.1s;
-}
-.dropdown div i {
-  color: var(--blaa-home);
-}
-.dropdown div:hover {
-  background-color: rgb(27, 27, 27);
-}
-.dropdown > button {
-  background-color: transparent;
-  border: 1px solid var(--graa-25);
-}
-.dropdown > button:first-of-type {
-  border-radius: 7px 7px 7px 15px;
-}
-.dropdown > button:last-of-type {
-  border-radius: 7px 7px 15px 7px;
-}
-.dropdown > button:hover {
-  background-color: transparent;
-  border: 1px solid var(--blaa-home);
-}
-.dropdown > button p {
-  margin-top: 5px;
-  color: var(--graa-50);
-}
-.dropdown > button > i {
-  color: var(--graa-50);
-}
-.dropdown > div > button {
-  border: 1px solid var(--blaa-home-2);
-}
-.dropdown > div > button:hover {
-  background-color: transparent;
-}
-.dropdown div p {
-  font-size: 12px;
-}
 .watchNow {
   height: 700px;
   width: 100%;
@@ -160,8 +95,5 @@ section:nth-of-type(2) > button {
   display: none;
 }
 body::-webkit-scrollbar {
-  display: none;
-}
-.none {
   display: none;
 }

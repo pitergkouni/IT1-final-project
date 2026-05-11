@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="browse.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="../assets/images/logo.webp" alt="" />
+      <nav>
+        <button><i class="fa-regular fa-house"></i> Home</button>
+        <button class="browse">
+          <i class="fa-solid fa-table-cells-large"></i> Browse
+          <i class="fa-solid fa-angle-down"></i>
+        </button>
+        <div class="dropdown">
+          <div>
+            <button><i class="fa-solid fa-clapperboard"></i></button>
+            <p>Movies</p>
+          </div>
+          <div>
+            <button><i class="fa-solid fa-tv"></i></button>
+            <p>TV Shows</p>
+          </div>
+          <button>
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <p>History</p>
+          </button>
+          <button>
+            <i class="fa-regular fa-heart"></i>
+            <p>Watchlist</p>
+          </button>
+        </div>
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        <button><i class="fa-regular fa-user"></i></button>
+      </nav>
+    </header>
+    <main>
+      <section class="browseCategories">
+        <button>Most popular</button>
+        <button>Top 2026</button>
+        <button>Action</button>
+        <button>Adventure</button>
+        <button>Comedy</button>
+        <button>Drama</button>
+        <button>Animation</button>
+        <button>Family</button>
+        <button>Fantasy</button>
+      </section>
+      <section class="filmWrapper"></section>
+    </main>
+    <script src="browse.js"></script>
+  </body>
+</html>

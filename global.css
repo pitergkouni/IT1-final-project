@@ -47,17 +47,87 @@ button {
   transition: 0.2s;
   border: none;
 }
-.narrowFilm {
-  width: 200px;
-  height: 300px;
+.narrowFilm,
+.wideFilm {
   border: 2px solid white;
   flex-shrink: 0;
   border-radius: 10px;
+  cursor: pointer;
+}
+.narrowFilm {
+  width: 200px;
+  height: 300px;
 }
 .wideFilm {
   width: 300px;
   height: 200px;
-  border: 2px solid white;
-  flex-shrink: 0;
-  border-radius: 10px;
+}
+.none {
+  display: none !important;
+}
+.browse {
+  anchor-name: --menu-btn;
+}
+.dropdown {
+  backdrop-filter: blur(10px);
+  position: absolute;
+  position-anchor: --menu-btn;
+  top: anchor(bottom);
+  right: anchor(right);
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid var(--graa-25);
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 10px;
+  gap: 10px;
+}
+.dropdown div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  gap: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.dropdown div i {
+  color: var(--blaa-home);
+}
+.dropdown div:hover {
+  background-color: rgb(27, 27, 27);
+}
+.dropdown > button {
+  background-color: transparent;
+  border: 1px solid var(--graa-25);
+}
+.dropdown > button:first-of-type {
+  border-radius: 7px 7px 7px 15px;
+}
+.dropdown > button:last-of-type {
+  border-radius: 7px 7px 15px 7px;
+}
+.dropdown > button:hover {
+  background-color: transparent;
+  border: 1px solid var(--blaa-home);
+}
+.dropdown > button p {
+  margin-top: 5px;
+  color: var(--graa-50);
+}
+.dropdown > button > i {
+  color: var(--graa-50);
+}
+.dropdown > div > button {
+  border: 1px solid var(--blaa-home-2);
+}
+.dropdown > div > button:hover {
+  background-color: transparent;
+}
+.dropdown div p {
+  font-size: 12px;
 }

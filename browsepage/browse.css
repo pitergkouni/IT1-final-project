@@ -1,0 +1,67 @@
+nav {
+  display: flex;
+  gap: 8px;
+}
+header {
+  position: static;
+}
+nav button {
+  padding: 7px;
+  border-radius: 7px;
+  border: none;
+  font-size: 15px;
+  background-color: transparent;
+  color: var(--hvit-100);
+}
+nav button:hover {
+  background-color: var(--blaa-100);
+}
+nav > button:last-of-type {
+  border-radius: 100%;
+  padding-block: 9px;
+}
+nav > button:nth-of-type(3) > i,
+nav > button:last-of-type > i {
+  font-size: 20px;
+}
+main {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.browseCategories {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+.browseCategories button {
+  background: none;
+  padding: 15px;
+  font-size: 15px;
+}
+.browseCategories button:hover {
+  color: var(--blaa-home);
+}
+.filmWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-content: center;
+  gap: 20px;
+  
+}
+.active {
+  border-bottom: 1px solid var(--blaa-home);
+  color: var(--hvit-100);
+}
+.active:hover {
+  border-bottom: 1px solid var(--blaa-home);
+  color: var(--hvit-100) !important;
+}
+.inactive {
+  color: var(--graa-50);
+  border-bottom: 1px solid rgb(39, 39, 39);
+}
+::-webkit-scrollbar {
+  display: none;
+}
