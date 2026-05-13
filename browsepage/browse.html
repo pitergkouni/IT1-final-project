@@ -18,12 +18,14 @@
     <header>
       <img src="../assets/images/logo.webp" alt="" />
       <nav>
-        <button><i class="fa-regular fa-house"></i> Home</button>
+        <button onclick="location.href = '../homepage/home.html'">
+          <i class="fa-regular fa-house"></i> Home
+        </button>
         <button class="browse">
           <i class="fa-solid fa-table-cells-large"></i> Browse
           <i class="fa-solid fa-angle-down"></i>
         </button>
-        <div class="dropdown">
+        <div onclick="location.href = 'browse.html'" class="dropdown">
           <div>
             <button><i class="fa-solid fa-clapperboard"></i></button>
             <p>Movies</p>
@@ -58,6 +60,10 @@
         <button>Fantasy</button>
       </section>
       <section class="filmWrapper"></section>
+      <h1>History</h1>
+      <section class="historyWrapper"></section>
+      <h1>Watchlist</h1>
+      <section class="watchlistWrapper"></section>
     </main>
     <script src="browse.js"></script>
   </body>

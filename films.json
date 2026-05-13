@@ -1,0 +1,930 @@
+[
+  {
+    "title": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "genre": "Drama",
+    "imdb_rating": 9.3,
+    "year": 1994,
+    "image_url": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg"
+  },
+  {
+    "title": "The Godfather",
+    "director": "Francis Ford Coppola",
+    "genre": "Crime",
+    "imdb_rating": 9.2,
+    "year": 1972,
+    "image_url": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsLLeJMpXZFFC.jpg"
+  },
+  {
+    "title": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "genre": "Action",
+    "imdb_rating": 9.0,
+    "year": 2008,
+    "image_url": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+  },
+  {
+    "title": "The Godfather Part II",
+    "director": "Francis Ford Coppola",
+    "genre": "Crime",
+    "imdb_rating": 9.0,
+    "year": 1974,
+    "image_url": "https://image.tmdb.org/t/p/w500/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg"
+  },
+  {
+    "title": "12 Angry Men",
+    "director": "Sidney Lumet",
+    "genre": "Drama",
+    "imdb_rating": 9.0,
+    "year": 1957,
+    "image_url": "https://image.tmdb.org/t/p/w500/ppd84D2i9W8jXmsyInGyihiSyqz.jpg"
+  },
+  {
+    "title": "Schindler's List",
+    "director": "Steven Spielberg",
+    "genre": "Biography",
+    "imdb_rating": 9.0,
+    "year": 1993,
+    "image_url": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "director": "Peter Jackson",
+    "genre": "Fantasy",
+    "imdb_rating": 9.0,
+    "year": 2003,
+    "image_url": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
+  },
+  {
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "genre": "Crime",
+    "imdb_rating": 8.9,
+    "year": 1994,
+    "image_url": "https://image.tmdb.org/t/p/w500/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "director": "Peter Jackson",
+    "genre": "Fantasy",
+    "imdb_rating": 8.8,
+    "year": 2001,
+    "image_url": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+  },
+  {
+    "title": "The Good, the Bad and the Ugly",
+    "director": "Sergio Leone",
+    "genre": "Western",
+    "imdb_rating": 8.8,
+    "year": 1966,
+    "image_url": "https://image.tmdb.org/t/p/w500/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg"
+  },
+  {
+    "title": "Forrest Gump",
+    "director": "Robert Zemeckis",
+    "genre": "Drama",
+    "imdb_rating": 8.8,
+    "year": 1994,
+    "image_url": "https://image.tmdb.org/t/p/w500/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg"
+  },
+  {
+    "title": "Fight Club",
+    "director": "David Fincher",
+    "genre": "Drama",
+    "imdb_rating": 8.8,
+    "year": 1999,
+    "image_url": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
+  },
+  {
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "genre": "Sci-Fi",
+    "imdb_rating": 8.8,
+    "year": 2010,
+    "image_url": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg"
+  },
+  {
+    "title": "The Lord of the Rings: The Two Towers",
+    "director": "Peter Jackson",
+    "genre": "Fantasy",
+    "imdb_rating": 8.8,
+    "year": 2002,
+    "image_url": "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYspM.jpg"
+  },
+  {
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "director": "Irvin Kershner",
+    "genre": "Sci-Fi",
+    "imdb_rating": 8.7,
+    "year": 1980,
+    "image_url": "https://image.tmdb.org/t/p/w500/nNAeTl5dNfkPzm4wacMFO1BKRPK.jpg"
+  },
+  {
+    "title": "The Matrix",
+    "director": "Lana and Lilly Wachowski",
+    "genre": "Sci-Fi",
+    "imdb_rating": 8.7,
+    "year": 1999,
+    "image_url": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg"
+  },
+  {
+    "title": "Goodfellas",
+    "director": "Martin Scorsese",
+    "genre": "Crime",
+    "imdb_rating": 8.7,
+    "year": 1990,
+    "image_url": "https://image.tmdb.org/t/p/w500/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg"
+  },
+  {
+    "title": "One Flew Over the Cuckoo's Nest",
+    "director": "Milos Forman",
+    "genre": "Drama",
+    "imdb_rating": 8.7,
+    "year": 1975,
+    "image_url": "https://image.tmdb.org/t/p/w500/3jcbDmRFiQ83drXNOvRDeKHxS0C.jpg"
+  },
+  {
+    "title": "Interstellar",
+    "director": "Christopher Nolan",
+    "genre": "Sci-Fi",
+    "imdb_rating": 8.7,
+    "year": 2014,
+    "image_url": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+  },
+  {
+    "title": "Se7en",
+    "director": "David Fincher",
+    "genre": "Thriller",
+    "imdb_rating": 8.6,
+    "year": 1995,
+    "image_url": "https://image.tmdb.org/t/p/w500/6yoghtyTpznpBik8EngEmJskVUO.jpg"
+  },
+  {
+    "title": "Seven Samurai",
+    "director": "Akira Kurosawa",
+    "genre": "Action",
+    "imdb_rating": 8.6,
+    "year": 1954,
+    "image_url": "https://image.tmdb.org/t/p/w500/8OKmBV5BUFzmozIC3pPWKHy17kx.jpg"
+  },
+  {
+    "title": "It's a Wonderful Life",
+    "director": "Frank Capra",
+    "genre": "Drama",
+    "imdb_rating": 8.6,
+    "year": 1946,
+    "image_url": "https://image.tmdb.org/t/p/w500/bSqt9rhDZx1Q7UZ86dBPd2oaDH.jpg"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "director": "Jonathan Demme",
+    "genre": "Thriller",
+    "imdb_rating": 8.6,
+    "year": 1991,
+    "image_url": "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg"
+  },
+  {
+    "title": "City of God",
+    "director": "Fernando Meirelles",
+    "genre": "Crime",
+    "imdb_rating": 8.6,
+    "year": 2002,
+    "image_url": "https://image.tmdb.org/t/p/w500/k7eYdWvhYQyRQoU2TB2A2Xu2grZ.jpg"
+  },
+  {
+    "title": "Saving Private Ryan",
+    "director": "Steven Spielberg",
+    "genre": "War",
+    "imdb_rating": 8.6,
+    "year": 1998,
+    "image_url": "https://image.tmdb.org/t/p/w500/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg"
+  },
+  {
+    "title": "Spirited Away",
+    "director": "Hayao Miyazaki",
+    "genre": "Animation",
+    "imdb_rating": 8.6,
+    "year": 2001,
+    "image_url": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg"
+  },
+  {
+    "title": "The Green Mile",
+    "director": "Frank Darabont",
+    "genre": "Drama",
+    "imdb_rating": 8.6,
+    "year": 1999,
+    "image_url": "https://image.tmdb.org/t/p/w500/rilHr9C0GRDmG5hFpGacTMRWHoE.jpg"
+  },
+  {
+    "title": "Life Is Beautiful",
+    "director": "Roberto Benigni",
+    "genre": "Comedy",
+    "imdb_rating": 8.6,
+    "year": 1997,
+    "image_url": "https://image.tmdb.org/t/p/w500/74hLDKjD5aGYOotO6esUVaeISa2.jpg"
+  },
+  {
+    "title": "Terminator 2: Judgment Day",
+    "director": "James Cameron",
+    "genre": "Sci-Fi",
+    "imdb_rating": 8.6,
+    "year": 1991,
+    "image_url": "https://image.tmdb.org/t/p/w500/5M0j0B18abtBI5gi3JOGMPWLj1v.jpg"
+  },
+  {
+    "title": "Star Wars: Episode IV - A New Hope",
+    "director": "George Lucas",
+    "genre": "Sci-Fi",
+    "imdb_rating": 8.6,
+    "year": 1977,
+    "image_url": "https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg"
+  },
+  {
+    "title": "Parasite",
+    "director": "Bong Joon Ho",
+    "genre": "Thriller",
+    "imdb_rating": 8.5,
+    "year": 2019,
+    "image_url": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+  },
+  {
+    "title": "Léon: The Professional",
+    "director": "Luc Besson",
+    "genre": "Action",
+    "imdb_rating": 8.5,
+    "year": 1994,
+    "image_url": "https://image.tmdb.org/t/p/w500/yI6X2cCM5YPJtxMhUd3dPGqDAhw.jpg"
+  },
+  {
+    "title": "The Usual Suspects",
+    "director": "Bryan Singer",
+    "genre": "Mystery",
+    "imdb_rating": 8.5,
+    "year": 1995,
+    "image_url": "https://image.tmdb.org/t/p/w500/bau9mXVAbOZWdyEWCGsTNzHdEHy.jpg"
+  },
+  {
+    "title": "The Lion King",
+    "director": "Roger Allers",
+    "genre": "Animation",
+    "imdb_rating": 8.5,
+    "year": 1994,
+    "image_url": "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg"
+  },
+  {
+    "title": "Back to the Future",
+    "director": "Robert Zemeckis",
+    "genre": "Sci-Fi",
+    "imdb_rating": 8.5,
+    "year": 1985,
+    "image_url": "https://image.tmdb.org/t/p/w500/fNOH9f1aA7XRTzl1sAOx9iF553Q.jpg"
+  },
+  {
+    "title": "Whiplash",
+    "director": "Damien Chazelle",
+    "genre": "Drama",
+    "imdb_rating": 8.5,
+    "year": 2014,
+    "image_url": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg"
+  },
+  {
+    "title": "Gladiator",
+    "director": "Ridley Scott",
+    "genre": "Action",
+    "imdb_rating": 8.5,
+    "year": 2000,
+    "image_url": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg"
+  },
+  {
+    "title": "American History X",
+    "director": "Tony Kaye",
+    "genre": "Drama",
+    "imdb_rating": 8.5,
+    "year": 1998,
+    "image_url": "https://image.tmdb.org/t/p/w500/mCgPeXOXGb8ic4bPuGqKg9cO61t.jpg"
+  },
+  {
+    "title": "The Departed",
+    "director": "Martin Scorsese",
+    "genre": "Crime",
+    "imdb_rating": 8.5,
+    "year": 2006,
+    "image_url": "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg"
+  },
+  {
+    "title": "The Prestige",
+    "director": "Christopher Nolan",
+    "genre": "Drama",
+    "imdb_rating": 8.5,
+    "year": 2006,
+    "image_url": "https://image.tmdb.org/t/p/w500/5MXyQfz8xUP3dIFPTubhTsbFY6V.jpg"
+  },
+  {
+    "title": "Casablanca",
+    "director": "Michael Curtiz",
+    "genre": "Drama",
+    "imdb_rating": 8.5,
+    "year": 1942,
+    "image_url": "https://image.tmdb.org/t/p/w500/5K7cOHoay2mZusSLezBOY0Qxh8a.jpg"
+  },
+  {
+    "title": "The Pianist",
+    "director": "Roman Polanski",
+    "genre": "Biography",
+    "imdb_rating": 8.5,
+    "year": 2002,
+    "image_url": "https://image.tmdb.org/t/p/w500/2hFvxCCWrTmCYwfy7yFmF8tYbx.jpg"
+  },
+  {
+    "title": "Rear Window",
+    "director": "Alfred Hitchcock",
+    "genre": "Mystery",
+    "imdb_rating": 8.5,
+    "year": 1954,
+    "image_url": "https://image.tmdb.org/t/p/w500/ILVF0eJxHMddjxeQhswFtZVDoBo.jpg"
+  },
+  {
+    "title": "Alien",
+    "director": "Ridley Scott",
+    "genre": "Sci-Fi",
+    "imdb_rating": 8.5,
+    "year": 1979,
+    "image_url": "https://image.tmdb.org/t/p/w500/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
+  },
+  {
+    "title": "Psycho",
+    "director": "Alfred Hitchcock",
+    "genre": "Horror",
+    "imdb_rating": 8.5,
+    "year": 1960,
+    "image_url": "https://image.tmdb.org/t/p/w500/yz4QVqPx3h6hWL4qMo5l3aLHbgT.jpg"
+  },
+  {
+    "title": "Django Unchained",
+    "director": "Quentin Tarantino",
+    "genre": "Western",
+    "imdb_rating": 8.5,
+    "year": 2012,
+    "image_url": "https://image.tmdb.org/t/p/w500/7oWY8VDWW7thTzWh3OKYRkWcpXi.jpg"
+  },
+  {
+    "title": "Apocalypse Now",
+    "director": "Francis Ford Coppola",
+    "genre": "War",
+    "imdb_rating": 8.4,
+    "year": 1979,
+    "image_url": "https://image.tmdb.org/t/p/w500/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg"
+  },
+  {
+    "title": "Memento",
+    "director": "Christopher Nolan",
+    "genre": "Mystery",
+    "imdb_rating": 8.4,
+    "year": 2000,
+    "image_url": "https://image.tmdb.org/t/p/w500/yuNs09hvpHVU1cggriK04VtzWEk.jpg"
+  },
+  {
+    "title": "Raiders of the Lost Ark",
+    "director": "Steven Spielberg",
+    "genre": "Action",
+    "imdb_rating": 8.4,
+    "year": 1981,
+    "image_url": "https://image.tmdb.org/t/p/w500/ceG9VzoRAVGwivFU403Wc3AHRys.jpg"
+  },
+  {
+    "title": "Dr. Strangelove",
+    "director": "Stanley Kubrick",
+    "genre": "Comedy",
+    "imdb_rating": 8.4,
+    "year": 1964,
+    "image_url": "https://image.tmdb.org/t/p/w500/1lBh8IHkAkJBvE3jGLFhBNAeN5.jpg"
+  },
+  {
+    "title": "The Shining",
+    "director": "Stanley Kubrick",
+    "genre": "Horror",
+    "imdb_rating": 8.4,
+    "year": 1980,
+    "image_url": "https://image.tmdb.org/t/p/w500/b6ko0IKC8MdYBBPkkA1aBPLe2yz.jpg"
+  },
+  {
+    "title": "Inglourious Basterds",
+    "director": "Quentin Tarantino",
+    "genre": "Adventure",
+    "imdb_rating": 8.4,
+    "year": 2009,
+    "image_url": "https://image.tmdb.org/t/p/w500/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg"
+  },
+  {
+    "title": "Joker",
+    "director": "Todd Phillips",
+    "genre": "Crime",
+    "imdb_rating": 8.4,
+    "year": 2019,
+    "image_url": "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+  },
+  {
+    "title": "WALL-E",
+    "director": "Andrew Stanton",
+    "genre": "Animation",
+    "imdb_rating": 8.4,
+    "year": 2008,
+    "image_url": "https://image.tmdb.org/t/p/w500/hbhFnRzzg6ZDmm8YAmxBnwln8ah.jpg"
+  },
+  {
+    "title": "Coco",
+    "director": "Lee Unkrich",
+    "genre": "Animation",
+    "imdb_rating": 8.4,
+    "year": 2017,
+    "image_url": "https://image.tmdb.org/t/p/w500/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg"
+  },
+  {
+    "title": "Avengers: Endgame",
+    "director": "Anthony and Joe Russo",
+    "genre": "Action",
+    "imdb_rating": 8.4,
+    "year": 2019,
+    "image_url": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg"
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+    "genre": "Animation",
+    "imdb_rating": 8.4,
+    "year": 2018,
+    "image_url": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg"
+  },
+  {
+    "title": "Citizen Kane",
+    "director": "Orson Welles",
+    "genre": "Drama",
+    "imdb_rating": 8.3,
+    "year": 1941,
+    "image_url": "https://image.tmdb.org/t/p/w500/sav0jxhqiH0bPr2vZFU0Kjt2nZL.jpg"
+  },
+  {
+    "title": "North by Northwest",
+    "director": "Alfred Hitchcock",
+    "genre": "Thriller",
+    "imdb_rating": 8.3,
+    "year": 1959,
+    "image_url": "https://image.tmdb.org/t/p/w500/7V3BgsrDzxBoBJFEUUjnTTEXVgm.jpg"
+  },
+  {
+    "title": "Vertigo",
+    "director": "Alfred Hitchcock",
+    "genre": "Mystery",
+    "imdb_rating": 8.3,
+    "year": 1958,
+    "image_url": "https://image.tmdb.org/t/p/w500/5om9LJgIl0mOe4INdwMxN4SIxKN.jpg"
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "director": "Stanley Kubrick",
+    "genre": "Sci-Fi",
+    "imdb_rating": 8.3,
+    "year": 1968,
+    "image_url": "https://image.tmdb.org/t/p/w500/ve72VxNqsuZ8rJFDeRGsuZ7CZDW.jpg"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "director": "Stanley Kubrick",
+    "genre": "Crime",
+    "imdb_rating": 8.3,
+    "year": 1971,
+    "image_url": "https://image.tmdb.org/t/p/w500/5hZ1KCIKIhCJAD9fgzWXk1CDFly.jpg"
+  },
+  {
+    "title": "Full Metal Jacket",
+    "director": "Stanley Kubrick",
+    "genre": "War",
+    "imdb_rating": 8.3,
+    "year": 1987,
+    "image_url": "https://image.tmdb.org/t/p/w500/n9RC21b0XtVNjJm7VHtDOLApnqB.jpg"
+  },
+  {
+    "title": "Reservoir Dogs",
+    "director": "Quentin Tarantino",
+    "genre": "Crime",
+    "imdb_rating": 8.3,
+    "year": 1992,
+    "image_url": "https://image.tmdb.org/t/p/w500/lEIaL12hSkqqe83nKyFlkSbMgJQ.jpg"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "director": "Michel Gondry",
+    "genre": "Drama",
+    "imdb_rating": 8.3,
+    "year": 2004,
+    "image_url": "https://image.tmdb.org/t/p/w500/5QuHTYljkMi7HvMFuJkGbO3mVDO.jpg"
+  },
+  {
+    "title": "Amélie",
+    "director": "Jean-Pierre Jeunet",
+    "genre": "Romance",
+    "imdb_rating": 8.3,
+    "year": 2001,
+    "image_url": "https://image.tmdb.org/t/p/w500/mfzOhBXG0NIU0A8RDFHQW0lSi3M.jpg"
+  },
+  {
+    "title": "Toy Story",
+    "director": "John Lasseter",
+    "genre": "Animation",
+    "imdb_rating": 8.3,
+    "year": 1995,
+    "image_url": "https://image.tmdb.org/t/p/w500/uXDfjJbdP4ijW5hWSBrPrlKpxab.jpg"
+  },
+  {
+    "title": "Toy Story 3",
+    "director": "Lee Unkrich",
+    "genre": "Animation",
+    "imdb_rating": 8.3,
+    "year": 2010,
+    "image_url": "https://image.tmdb.org/t/p/w500/AbbXspMOwdvwWZgVN0nabYBcMSh.jpg"
+  },
+  {
+    "title": "Up",
+    "director": "Pete Docter",
+    "genre": "Animation",
+    "imdb_rating": 8.3,
+    "year": 2009,
+    "image_url": "https://image.tmdb.org/t/p/w500/jTFpXecJhDq2CKKGdL62pQEVjG9.jpg"
+  },
+  {
+    "title": "Jurassic Park",
+    "director": "Steven Spielberg",
+    "genre": "Adventure",
+    "imdb_rating": 8.2,
+    "year": 1993,
+    "image_url": "https://image.tmdb.org/t/p/w500/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg"
+  },
+  {
+    "title": "Taxi Driver",
+    "director": "Martin Scorsese",
+    "genre": "Drama",
+    "imdb_rating": 8.2,
+    "year": 1976,
+    "image_url": "https://image.tmdb.org/t/p/w500/9J9b2fQoCZw2jPYB3fRZHBM0kVY.jpg"
+  },
+  {
+    "title": "Raging Bull",
+    "director": "Martin Scorsese",
+    "genre": "Biography",
+    "imdb_rating": 8.2,
+    "year": 1980,
+    "image_url": "https://image.tmdb.org/t/p/w500/8G7jGFzMPCOPPdHfRmDi5z0XFNC.jpg"
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "director": "Martin Scorsese",
+    "genre": "Biography",
+    "imdb_rating": 8.2,
+    "year": 2013,
+    "image_url": "https://image.tmdb.org/t/p/w500/34m2tygAYBGqA9MXKhRDtzYd4MZ.jpg"
+  },
+  {
+    "title": "Casino",
+    "director": "Martin Scorsese",
+    "genre": "Crime",
+    "imdb_rating": 8.2,
+    "year": 1995,
+    "image_url": "https://image.tmdb.org/t/p/w500/alone9c4YLHB8JKL8MEpjt5V8Mw.jpg"
+  },
+  {
+    "title": "Kill Bill: Vol. 1",
+    "director": "Quentin Tarantino",
+    "genre": "Action",
+    "imdb_rating": 8.2,
+    "year": 2003,
+    "image_url": "https://image.tmdb.org/t/p/w500/7byMUMiZEThGJdEm4rEF7ISvIHr.jpg"
+  },
+  {
+    "title": "No Country for Old Men",
+    "director": "Joel and Ethan Coen",
+    "genre": "Crime",
+    "imdb_rating": 8.2,
+    "year": 2007,
+    "image_url": "https://image.tmdb.org/t/p/w500/6d5XCmNVzHBjOX34UUvyB2DRdAQ.jpg"
+  },
+  {
+    "title": "There Will Be Blood",
+    "director": "Paul Thomas Anderson",
+    "genre": "Drama",
+    "imdb_rating": 8.2,
+    "year": 2007,
+    "image_url": "https://image.tmdb.org/t/p/w500/ya9dBOY29ILBMcNWVbNZZQfKMzX.jpg"
+  },
+  {
+    "title": "Pan's Labyrinth",
+    "director": "Guillermo del Toro",
+    "genre": "Fantasy",
+    "imdb_rating": 8.2,
+    "year": 2006,
+    "image_url": "https://image.tmdb.org/t/p/w500/f68fvHAjqrfREsyQfVMD7uVDAJd.jpg"
+  },
+  {
+    "title": "The Truman Show",
+    "director": "Peter Weir",
+    "genre": "Comedy",
+    "imdb_rating": 8.2,
+    "year": 1998,
+    "image_url": "https://image.tmdb.org/t/p/w500/vuza0WqY239yBXOadKlGwJsZJFE.jpg"
+  },
+  {
+    "title": "Finding Nemo",
+    "director": "Andrew Stanton",
+    "genre": "Animation",
+    "imdb_rating": 8.2,
+    "year": 2003,
+    "image_url": "https://image.tmdb.org/t/p/w500/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg"
+  },
+  {
+    "title": "Inside Out",
+    "director": "Pete Docter",
+    "genre": "Animation",
+    "imdb_rating": 8.2,
+    "year": 2015,
+    "image_url": "https://image.tmdb.org/t/p/w500/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg"
+  },
+  {
+    "title": "Blade Runner",
+    "director": "Ridley Scott",
+    "genre": "Sci-Fi",
+    "imdb_rating": 8.1,
+    "year": 1982,
+    "image_url": "https://image.tmdb.org/t/p/w500/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg"
+  },
+  {
+    "title": "Gone Girl",
+    "director": "David Fincher",
+    "genre": "Mystery",
+    "imdb_rating": 8.1,
+    "year": 2014,
+    "image_url": "https://image.tmdb.org/t/p/w500/fSRb7vyIP8rQpL0I47p3EvM26Dh.jpg"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "director": "Wes Anderson",
+    "genre": "Comedy",
+    "imdb_rating": 8.1,
+    "year": 2014,
+    "image_url": "https://image.tmdb.org/t/p/w500/nX5XotM9yprCKarRH4fzcOTiGnM.jpg"
+  },
+  {
+    "title": "Fargo",
+    "director": "Joel and Ethan Coen",
+    "genre": "Crime",
+    "imdb_rating": 8.1,
+    "year": 1996,
+    "image_url": "https://image.tmdb.org/t/p/w500/ydBuGKSBbKz1DGFULwoCuXWbvVk.jpg"
+  },
+  {
+    "title": "The Big Lebowski",
+    "director": "Joel and Ethan Coen",
+    "genre": "Comedy",
+    "imdb_rating": 8.1,
+    "year": 1998,
+    "image_url": "https://image.tmdb.org/t/p/w500/xTHltMrZPAJFLQ6qyCBjAnRoqzh.jpg"
+  },
+  {
+    "title": "12 Years a Slave",
+    "director": "Steve McQueen",
+    "genre": "Biography",
+    "imdb_rating": 8.1,
+    "year": 2013,
+    "image_url": "https://image.tmdb.org/t/p/w500/xdANQijuNrJaGBxGQMjlIaAMlOe.jpg"
+  },
+  {
+    "title": "Spotlight",
+    "director": "Tom McCarthy",
+    "genre": "Biography",
+    "imdb_rating": 8.1,
+    "year": 2015,
+    "image_url": "https://image.tmdb.org/t/p/w500/8jTjlFOGMQaFUFOoMQQhWUbLyWb.jpg"
+  },
+  {
+    "title": "Trainspotting",
+    "director": "Danny Boyle",
+    "genre": "Drama",
+    "imdb_rating": 8.1,
+    "year": 1996,
+    "image_url": "https://image.tmdb.org/t/p/w500/mBi9dc0J8thUSMMPvbIaTKPuYjC.jpg"
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "director": "George Miller",
+    "genre": "Action",
+    "imdb_rating": 8.1,
+    "year": 2015,
+    "image_url": "https://image.tmdb.org/t/p/w500/kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+  },
+  {
+    "title": "Logan",
+    "director": "James Mangold",
+    "genre": "Action",
+    "imdb_rating": 8.1,
+    "year": 2017,
+    "image_url": "https://image.tmdb.org/t/p/w500/fnbjcRDYn6YviCcePDnGdyAkYsB.jpg"
+  },
+  {
+    "title": "Jaws",
+    "director": "Steven Spielberg",
+    "genre": "Thriller",
+    "imdb_rating": 8.1,
+    "year": 1975,
+    "image_url": "https://image.tmdb.org/t/p/w500/lxM6kqilnpb9BXjfzPEiForJAFp.jpg"
+  },
+  {
+    "title": "Ratatouille",
+    "director": "Brad Bird",
+    "genre": "Animation",
+    "imdb_rating": 8.1,
+    "year": 2007,
+    "image_url": "https://image.tmdb.org/t/p/w500/npHNjldbeTHdKKGRa6yGBxz6Y2B.jpg"
+  },
+  {
+    "title": "The Social Network",
+    "director": "David Fincher",
+    "genre": "Biography",
+    "imdb_rating": 8.0,
+    "year": 2010,
+    "image_url": "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHso.jpg"
+  },
+  {
+    "title": "Blade Runner 2049",
+    "director": "Denis Villeneuve",
+    "genre": "Sci-Fi",
+    "imdb_rating": 8.0,
+    "year": 2017,
+    "image_url": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg"
+  },
+  {
+    "title": "Dune",
+    "director": "Denis Villeneuve",
+    "genre": "Sci-Fi",
+    "imdb_rating": 8.0,
+    "year": 2021,
+    "image_url": "https://image.tmdb.org/t/p/w500/d5NXSklpcvkCmLDqmDGJfMxFseL.jpg"
+  },
+  {
+    "title": "La La Land",
+    "director": "Damien Chazelle",
+    "genre": "Musical",
+    "imdb_rating": 8.0,
+    "year": 2016,
+    "image_url": "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+  },
+  {
+    "title": "Magnolia",
+    "director": "Paul Thomas Anderson",
+    "genre": "Drama",
+    "imdb_rating": 8.0,
+    "year": 1999,
+    "image_url": "https://image.tmdb.org/t/p/w500/lO80q9MYHD0qr9yHK5VQfkTPOsY.jpg"
+  },
+  {
+    "title": "The Revenant",
+    "director": "Alejandro G. Iñárritu",
+    "genre": "Adventure",
+    "imdb_rating": 8.0,
+    "year": 2015,
+    "image_url": "https://image.tmdb.org/t/p/w500/ji3ecJphATlVgWNY0B0RVXZizR2.jpg"
+  },
+  {
+    "title": "Slumdog Millionaire",
+    "director": "Danny Boyle",
+    "genre": "Drama",
+    "imdb_rating": 8.0,
+    "year": 2008,
+    "image_url": "https://image.tmdb.org/t/p/w500/lEpSugarHkNXQMnbQQHtX43YeEZ.jpg"
+  },
+  {
+    "title": "The Avengers",
+    "director": "Joss Whedon",
+    "genre": "Action",
+    "imdb_rating": 8.0,
+    "year": 2012,
+    "image_url": "https://image.tmdb.org/t/p/w500/RYMX2wpNTe9SHnJzRHHcpXLIiHn.jpg"
+  },
+  {
+    "title": "E.T. the Extra-Terrestrial",
+    "director": "Steven Spielberg",
+    "genre": "Sci-Fi",
+    "imdb_rating": 7.9,
+    "year": 1982,
+    "image_url": "https://image.tmdb.org/t/p/w500/an0nD6uq7tOiDntkMU9q4noYdvC.jpg"
+  },
+  {
+    "title": "Arrival",
+    "director": "Denis Villeneuve",
+    "genre": "Sci-Fi",
+    "imdb_rating": 7.9,
+    "year": 2016,
+    "image_url": "https://image.tmdb.org/t/p/w500/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg"
+  },
+  {
+    "title": "Mulholland Drive",
+    "director": "David Lynch",
+    "genre": "Mystery",
+    "imdb_rating": 7.9,
+    "year": 2001,
+    "image_url": "https://image.tmdb.org/t/p/w500/aBsWGRhDqYnmXMuXx7bO1GzNjYE.jpg"
+  },
+  {
+    "title": "The Social Dilemma",
+    "director": "Jeff Orlowski",
+    "genre": "Documentary",
+    "imdb_rating": 7.6,
+    "year": 2020,
+    "image_url": "https://image.tmdb.org/t/p/w500/g2oAFIFMvJuVkHtOcJIJdFRHOvH.jpg"
+  },
+  {
+    "title": "Once Upon a Time in Hollywood",
+    "director": "Quentin Tarantino",
+    "genre": "Comedy",
+    "imdb_rating": 7.6,
+    "year": 2019,
+    "image_url": "https://image.tmdb.org/t/p/w500/8j58iEBbyxOggjAZoHBH3TnKqpK.jpg"
+  },
+  {
+    "title": "Sicario",
+    "director": "Denis Villeneuve",
+    "genre": "Action",
+    "imdb_rating": 7.6,
+    "year": 2015,
+    "image_url": "https://image.tmdb.org/t/p/w500/rcCD5TlZpSKekuQxuZmJfbj9vE4.jpg"
+  },
+  {
+    "title": "Birdman",
+    "director": "Alejandro G. Iñárritu",
+    "genre": "Drama",
+    "imdb_rating": 7.7,
+    "year": 2014,
+    "image_url": "https://image.tmdb.org/t/p/w500/oRdvKCMEGFmFVHYmMQSB7U1yxgD.jpg"
+  },
+  {
+    "title": "Zodiac",
+    "director": "David Fincher",
+    "genre": "Thriller",
+    "imdb_rating": 7.7,
+    "year": 2007,
+    "image_url": "https://image.tmdb.org/t/p/w500/dIYHVSGkBs39R7nSMWi4ISXfBLx.jpg"
+  },
+  {
+    "title": "Argo",
+    "director": "Ben Affleck",
+    "genre": "Biography",
+    "imdb_rating": 7.7,
+    "year": 2012,
+    "image_url": "https://image.tmdb.org/t/p/w500/hZkgoQYus5NXA4QJ9atT9a4woO8.jpg"
+  },
+  {
+    "title": "The Hurt Locker",
+    "director": "Kathryn Bigelow",
+    "genre": "War",
+    "imdb_rating": 7.5,
+    "year": 2008,
+    "image_url": "https://image.tmdb.org/t/p/w500/anSbEpWIHOJMrjL7MBfDSHJk1bN.jpg"
+  },
+  {
+    "title": "Moonlight",
+    "director": "Barry Jenkins",
+    "genre": "Drama",
+    "imdb_rating": 7.4,
+    "year": 2016,
+    "image_url": "https://image.tmdb.org/t/p/w500/4911t5G7NSubjHGJxonMJKFAsSj.jpg"
+  },
+  {
+    "title": "Black Panther",
+    "director": "Ryan Coogler",
+    "genre": "Action",
+    "imdb_rating": 7.3,
+    "year": 2018,
+    "image_url": "https://image.tmdb.org/t/p/w500/uxzzxijgPIY7slzFvMotPv8wjKA.jpg"
+  },
+  {
+    "title": "The Shape of Water",
+    "director": "Guillermo del Toro",
+    "genre": "Fantasy",
+    "imdb_rating": 7.3,
+    "year": 2017,
+    "image_url": "https://image.tmdb.org/t/p/w500/k4FwHlMhuRR5BISY2Gm2QZHlH5Q.jpg"
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "director": "Daniel Kwan, Daniel Scheinert",
+    "genre": "Sci-Fi",
+    "imdb_rating": 7.8,
+    "year": 2022,
+    "image_url": "https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg"
+  },
+  {
+    "title": "Oppenheimer",
+    "director": "Christopher Nolan",
+    "genre": "Biography",
+    "imdb_rating": 8.3,
+    "year": 2023,
+    "image_url": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+  }
+]

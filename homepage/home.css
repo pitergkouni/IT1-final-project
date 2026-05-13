@@ -89,11 +89,9 @@ section:nth-of-type(2) > button {
   transition: 0.3s;
   overflow-x: scroll;
   scroll-behavior: smooth;
+  color: white;
 }
 .track::-webkit-scrollbar,
 .premium-track::-webkit-scrollbar {
-  display: none;
-}
-body::-webkit-scrollbar {
   display: none;
 }

@@ -7,6 +7,11 @@ const arrowD = document.querySelector(".fa-angle-down");
 const browseButton = document.querySelector("nav button:nth-of-type(2)");
 const browseContent = document.querySelector(".dropdown");
 
+// at line 10
+const films = await fetch("../films.json").then((r) => r.json());
+
+console.log(films);
+
 browseContent.classList.add("none");
 
 browseButton.onclick = () => {
@@ -53,6 +58,14 @@ for (let i = 0; i < 15; i++) {
   const film = document.createElement("div");
   film.classList.add("narrowFilm");
   premiumTrack.appendChild(film);
+
+  const hElm = document.createElement("h2");
+  hElm.textContent = films[i].title;
+  film.appendChild(hElm);
+
+  const imgElm = document.createElement("img");
+  imgElm.src = films[i].image_url;
+  film.appendChild(imgElm);
 }
 
 right.forEach((button) => {
@@ -66,3 +79,6 @@ left.forEach((button) => {
     button.nextElementSibling.nextElementSibling.scrollLeft -= 310;
   };
 });
+
+const moviesBtn = document.querySelector(".dropdown div");
+console.log(moviesBtn);

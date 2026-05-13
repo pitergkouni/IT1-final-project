@@ -64,3 +64,20 @@ for (let i = 0; i < 16; i += 1) {
   film.classList.add("wideFilm");
   filmWrapper.appendChild(film);
 }
+
+const historyWrapper = document.querySelector(".historyWrapper");
+console.log(historyWrapper);
+
+for (let i = 0; i < 12; i += 1) {
+  const f = document.createElement("div");
+  f.classList.add("wideFilm");
+  historyWrapper.appendChild(f);
+}
+
+const watchlistWrapper = document.querySelector(".watchlistWrapper");
+
+for (let i = 0; i < 12; i += 1) {
+  const f = document.createElement("div");
+  f.classList.add("wideFilm");
+  watchlistWrapper.appendChild(f);
+}
