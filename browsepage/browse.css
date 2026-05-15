@@ -33,7 +33,7 @@ main {
 }
 .browseCategories {
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(17, 1fr);
 }
 .browseCategories button {
   background: none;

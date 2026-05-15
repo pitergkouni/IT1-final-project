@@ -55,17 +55,15 @@ section:last-of-type > h1 {
   margin-bottom: 40px;
 }
 .left {
-  height: 200px;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.115);
-  width: 50px;
-  filter: opacity(0);
-  transition: 0.2s;
 }
 .right {
-  height: 200px;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.115);
+}
+.left,
+.right {
+  height: 200px;
+  background-color: rgba(0, 0, 1, 0.814);
   width: 50px;
   filter: opacity(0);
   transition: 0.2s;
