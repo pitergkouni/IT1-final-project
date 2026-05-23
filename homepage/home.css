@@ -89,6 +89,10 @@ section:nth-of-type(2) > button {
   scroll-behavior: smooth;
   color: white;
 }
+.historyCont {
+  border: 2px solid white;
+  
+}
 .track::-webkit-scrollbar,
 .premium-track::-webkit-scrollbar {
   display: none;
