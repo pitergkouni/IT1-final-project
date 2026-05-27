@@ -1,4 +1,4 @@
-export const films = await fetch("/films.json").then((r) => r.json());
+export const films = await fetch(new URL("films.json", import.meta.url)).then((r) => r.json());
 export const filmsCount = films.length;
 
 const arrowD = document.querySelector(".fa-angle-down");
