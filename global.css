@@ -89,7 +89,7 @@ button {
   anchor-name: --menu-btn;
 }
 .dropdown {
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px) brightness(0.3);
   position: absolute;
   position-anchor: --menu-btn;
   top: anchor(bottom);

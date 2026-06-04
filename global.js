@@ -1,38 +1,42 @@
-export const films = await fetch(new URL("films.json", import.meta.url)).then((r) => r.json());
+export const films = await fetch(new URL("films.json", import.meta.url)).then(
+  (r) => r.json(),
+);
 export const filmsCount = films.length;
 
 const arrowD = document.querySelector(".fa-angle-down");
 const browseButton = document.querySelector("nav button:nth-of-type(2)");
 const browseContent = document.querySelector(".dropdown");
 
-browseContent.classList.add("none");
+if (browseContent) {
+  browseContent.classList.add("none");
 
-browseButton.onclick = () => {
-  if (arrowD.classList.contains("fa-angle-down")) {
-    arrowD.classList.replace("fa-angle-down", "fa-angle-up");
-    browseContent.classList.remove("none");
-  } else {
-    arrowD.classList.replace("fa-angle-up", "fa-angle-down");
-    browseContent.classList.add("none");
-  }
-};
+  browseButton.onclick = () => {
+    if (arrowD.classList.contains("fa-angle-down")) {
+      arrowD.classList.replace("fa-angle-down", "fa-angle-up");
+      browseContent.classList.remove("none");
+    } else {
+      arrowD.classList.replace("fa-angle-up", "fa-angle-down");
+      browseContent.classList.add("none");
+    }
+  };
 
-document.querySelectorAll(".dropdown div").forEach((div) => {
-  div.addEventListener("mouseover", () => {
-    div.firstElementChild.style.border = "1px solid rgb(89,89,225)";
+  document.querySelectorAll(".dropdown div").forEach((div) => {
+    div.addEventListener("mouseover", () => {
+      div.firstElementChild.style.border = "1px solid rgb(89,89,225)";
+    });
+    div.addEventListener("mouseout", () => {
+      div.firstElementChild.style.border = "1px solid rgb(46, 46, 118)";
+    });
   });
-  div.addEventListener("mouseout", () => {
-    div.firstElementChild.style.border = "1px solid rgb(46, 46, 118)";
-  });
-});
 
-document.querySelectorAll(".dropdown > button").forEach((button) => {
-  button.addEventListener("mouseover", () => {
-    button.firstElementChild.style.color = "rgb(89,89,225)";
-    button.lastElementChild.style.color = "rgb(89,89,225)";
+  document.querySelectorAll(".dropdown > button").forEach((button) => {
+    button.addEventListener("mouseover", () => {
+      button.firstElementChild.style.color = "rgb(89,89,225)";
+      button.lastElementChild.style.color = "rgb(89,89,225)";
+    });
+    button.addEventListener("mouseout", () => {
+      button.firstElementChild.style.color = "var(--graa-50)";
+      button.lastElementChild.style.color = "var(--graa-50)";
+    });
   });
-  button.addEventListener("mouseout", () => {
-    button.firstElementChild.style.color = "var(--graa-50)";
-    button.lastElementChild.style.color = "var(--graa-50)";
-  });
-});
+}

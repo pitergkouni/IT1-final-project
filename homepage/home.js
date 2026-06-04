@@ -8,8 +8,12 @@ const right = document.querySelectorAll(".right");
 const track2026 = document.querySelector("#top2026 .track");
 const trackTop = document.querySelector("#topRated .track");
 const trackChris = document.querySelector("#chrisNol .track");
-const historyButton = document.querySelector(".dropdown > button:first-of-type");
-const watchLButton = document.querySelector(".dropdown > button:nth-of-type(2)");
+const historyButton = document.querySelector(
+  ".dropdown > button:first-of-type",
+);
+const watchLButton = document.querySelector(
+  ".dropdown > button:nth-of-type(2)",
+);
 
 films.forEach((filmData) => {
   if (filmData.year == 2026) {
@@ -65,6 +69,17 @@ for (let i = 0; i < 15; i++) {
   premiumTrack.appendChild(filmElm);
 }
 
+function filmShower() {
+  let filmIndex = Math.floor(Math.random() * filmsCount);
+  bigScreen.style.backgroundImage =
+    "url(" + films[filmIndex].backdrop_url + ")";
+  const oldLogo = bigScreen.querySelector("img:not(.graddy)");
+  if (oldLogo) oldLogo.remove();
+  const filmLG = document.createElement("img");
+  filmLG.src = films[filmIndex].logo_url;
+  bigScreen.appendChild(filmLG);
+}
+
 right.forEach((button) => {
   button.onclick = () => {
     button.nextElementSibling.scrollLeft += 310;
@@ -76,3 +91,6 @@ left.forEach((button) => {
     button.nextElementSibling.nextElementSibling.scrollLeft -= 310;
   };
 });
+
+filmShower();
+setInterval(filmShower, 6000);
