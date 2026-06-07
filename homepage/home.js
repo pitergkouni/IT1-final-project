@@ -77,6 +77,7 @@ function filmShower() {
   if (oldLogo) oldLogo.remove();
   const filmLG = document.createElement("img");
   filmLG.src = films[filmIndex].logo_url;
+  filmLG.style.zIndex = 1;
   bigScreen.appendChild(filmLG);
 }
 
