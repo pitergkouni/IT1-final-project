@@ -40,3 +40,7 @@ if (browseContent) {
     });
   });
 }
+
+films.forEach((film) => {
+  localStorage.setItem("filmTitle", JSON.stringify(film));
+});
