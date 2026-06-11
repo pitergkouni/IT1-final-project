@@ -44,3 +44,30 @@ if (browseContent) {
 films.forEach((film) => {
   localStorage.setItem("filmTitle", JSON.stringify(film));
 });
+
+const maGlass = document.querySelector(".fa-magnifying-glass");
+const searchContainer = document.querySelector(".searchContainer");
+searchContainer.classList.add("none");
+
+maGlass.parentElement.onclick = () => {
+  searchContainer.classList.remove("none");
+};
+
+const X = document.querySelector(".fa-x");
+
+X.parentElement.onclick = () => {
+  searchContainer.classList.add("none");
+};
+
+const inputElm = document.querySelector(".searchContainer > input");
+
+inputElm.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    const inputValue = inputElm.value;
+    films.forEach((film) => {
+      if (inputValue == film.title) {
+        console.log("The film you searched for is " + film.title);
+      }
+    });
+  }
+});
