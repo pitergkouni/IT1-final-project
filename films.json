@@ -737,6 +737,17 @@
     "popular": true
   },
   {
+    "title": "Michael",
+    "director": "Antoine Fuqua",
+    "genre": "Biography",
+    "imdb_rating": 7.6,
+    "year": 2026,
+    "logo_url": "https://image.tmdb.org/t/p/original/wJHlHY0t6iBq6JRyCZNCH7cKzl1.png",
+    "image_url": "https://image.tmdb.org/t/p/original/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/jKHt7iD7AHkFlPR6bxhCNiBNlPJ.jpg",
+    "popular": false
+  },
+  {
     "title": "Eternal Sunshine of the Spotless Mind",
     "director": "Michel Gondry",
     "genre": "Drama",
