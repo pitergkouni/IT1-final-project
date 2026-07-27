@@ -137,9 +137,9 @@
     "genre": "Action",
     "imdb_rating": 7.6,
     "year": 2026,
-    "logo_url": "https://image.tmdb.org/t/p/original/vatBYVibG930veLWdAaJCzPPqr7.png",
+    "logo_url": "https://image.tmdb.org/t/p/original/vbZcDHC5IFylYuRnp3eyOs5rTV1.png",
     "image_url": "https://image.tmdb.org/t/p/w500/pspkSVP39NGa6G2rvK5KlMjvYUe.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/7GeDIR7mlTudOJ3tECLazQT8HO8.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/kbvNLChuMl2nyAzPZvqkD8hZGZn.jpg",
     "popular": false
   },
   {
@@ -407,6 +407,17 @@
     "popular": false
   },
   {
+    "title": "Peaky Blinders: The Immortal Man",
+    "director": "Tom Harper",
+    "genre": "Crime",
+    "imdb_rating": 6.5,
+    "year": 2026,
+    "logo_url": "https://image.tmdb.org/t/p/original/pRYBvZlE3qzhS6c38aWPATLLVhh.png",
+    "image_url": "https://image.tmdb.org/t/p/original/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/1fkuBPid72KGS6WmtkEXMftZtkE.jpg",
+    "popular": false
+  },
+  {
     "title": "Jaws",
     "director": "Steven Spielberg",
     "genre": "Thriller",
@@ -583,6 +594,17 @@
     "popular": false
   },
   {
+    "title": "Interstellar",
+    "director": "Christopher Nolan",
+    "genre": "Sci-Fi",
+    "imdb_rating": 8.7,
+    "year": 2014,
+    "logo_url": "https://image.tmdb.org/t/p/original/rf5sspdsudNSITHMNNcJyvb1LBv.png",
+    "image_url": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/xJHokMbljvjADYdit5fK5VQsXEG.jpg",
+    "popular": true
+  },
+  {
     "title": "The Departed",
     "director": "Martin Scorsese",
     "genre": "Crime",
@@ -604,17 +626,7 @@
     "backdrop_url": "https://image.tmdb.org/t/p/original/k9pshruhCpJAdH9RaGJO6jaWQ4X.jpg",
     "popular": true
   },
-  {
-    "title": "The Prestige",
-    "director": "Christopher Nolan",
-    "genre": "Drama",
-    "imdb_rating": 8.5,
-    "year": 2006,
-    "logo_url": "https://image.tmdb.org/t/p/original/spOKEWc2HsfVJWCicr5CXCCVRil.png",
-    "image_url": "https://image.tmdb.org/t/p/w500/Ag2B2KHKQPukjH7WutmgnnSNurZ.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/yCnJT53HMXAK87xzPAdjdYhZ3JE.jpg",
-    "popular": true
-  },
+
   {
     "title": "It's a Wonderful Life",
     "director": "Frank Capra",
@@ -726,6 +738,17 @@
     "popular": true
   },
   {
+    "title": "The Odyssey",
+    "director": "Christopher Nolan",
+    "genre": "Action",
+    "imdb_rating": 8.5,
+    "year": 2026,
+    "logo_url": "https://image.tmdb.org/t/p/original/nKjmavzR9ESsFtsvHuOoR3SGIwk.png",
+    "image_url": "https://image.tmdb.org/t/p/original/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/n3D2Lmwomtbc4SZFO8hLtLL0b5q.jpg",
+    "popular": false
+  },
+  {
     "title": "The Godfather Part II",
     "director": "Francis Ford Coppola",
     "genre": "Crime",
@@ -823,6 +846,17 @@
     "image_url": "https://image.tmdb.org/t/p/w500/63N9uy8nd9j7Eog2axPQ8lbr3Wj.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/cFZRtb1Q4whERknfYtj7Fjsvxpg.jpg",
     "popular": false
+  },
+  {
+    "title": "The Prestige",
+    "director": "Christopher Nolan",
+    "genre": "Drama",
+    "imdb_rating": 8.5,
+    "year": 2006,
+    "logo_url": "https://image.tmdb.org/t/p/original/spOKEWc2HsfVJWCicr5CXCCVRil.png",
+    "image_url": "https://image.tmdb.org/t/p/w500/Ag2B2KHKQPukjH7WutmgnnSNurZ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/yCnJT53HMXAK87xzPAdjdYhZ3JE.jpg",
+    "popular": true
   },
   {
     "title": "Mad Max: Fury Road",
@@ -945,17 +979,7 @@
     "backdrop_url": "https://image.tmdb.org/t/p/original/x1vmewr9K7sXOvwhntlUoorf12k.jpg",
     "popular": false
   },
-  {
-    "title": "Interstellar",
-    "director": "Christopher Nolan",
-    "genre": "Sci-Fi",
-    "imdb_rating": 8.7,
-    "year": 2014,
-    "logo_url": "https://image.tmdb.org/t/p/original/rf5sspdsudNSITHMNNcJyvb1LBv.png",
-    "image_url": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/xJHokMbljvjADYdit5fK5VQsXEG.jpg",
-    "popular": true
-  },
+
   {
     "title": "Dune: Part Three",
     "director": "Denis Villeneuve",
@@ -1356,7 +1380,7 @@
     "title": "Project Hail Mary",
     "director": "Phil Lord, Christopher Miller",
     "genre": "Sci-Fi",
-    "imdb_rating": 7.9,
+    "imdb_rating": 8.2,
     "year": 2026,
     "logo_url": "https://image.tmdb.org/t/p/original/xCL7AxU18ddFQP1vGVus8zPs3b0.png",
     "image_url": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
@@ -1406,16 +1430,5 @@
     "image_url": "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/w1280/kWYfW2Re0rUDE6IHhy4CRuKWeFr.jpg",
     "popular": true
-  },
-  {
-    "title": "The Odyssey",
-    "director": "Christopher Nolan",
-    "genre": "Adventure",
-    "imdb_rating": 8.3,
-    "year": 2026,
-    "logo_url": "https://image.tmdb.org/t/p/original/s4qVVLNlK6OEvIm5V3yiGCepEBo.png",
-    "image_url": "https://image.tmdb.org/t/p/w500/2jzjE3OtXekGtn3vdRGXpyWrHe7.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/tYuC9kUwqhpDQ3pv1kLMqyMF1Jw.jpg",
-    "popular": false
   }
 ]
