@@ -1,6 +1,10 @@
-export const films = await fetch(new URL("films.json", import.meta.url)).then(
-  (r) => r.json(),
-);
+const filmsUrl = new URL("films.json", import.meta.url);
+export const films = await fetch(filmsUrl).then((r) => r.json());
+
+// Resolve local image paths relative to films.json so they work on GitHub Pages too
+films.forEach((film) => {
+  film.backdrop_url = new URL(film.backdrop_url, filmsUrl).href;
+});
 export const filmsCount = films.length;
 
 const arrowD = document.querySelector(".fa-angle-down");

@@ -1197,7 +1197,7 @@
     "year": 2018,
     "logo_url": "https://image.tmdb.org/t/p/original/jIaAA5XzePtrJBQjGQFnmKwDz0.png",
     "image_url": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
-    "backdrop_url": "/assets/images/spiderman.jpeg",
+    "backdrop_url": "assets/images/spiderman.jpeg",
     "popular": false
   },
   {
