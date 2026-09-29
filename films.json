@@ -479,8 +479,8 @@
     "imdb_rating": 7.9,
     "year": 2026,
     "logo_url": "https://image.tmdb.org/t/p/original/og1hxalQfwkTOclXhHu7dnld6Zf.png",
-    "image_url": "https://image.tmdb.org/t/p/w500/8HkIe2i4ScpCkcX9SzZ9IPasqWV.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/h4Y3gOi9ne9vr8Vum9gUtcFI397.jpg",
+    "image_url": "https://image.tmdb.org/t/p/original/jzPwsojjFStf5lR5Nm07w2hH56G.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/2zRrPsZRCQL7xPAdMePgoIYgf0j.jpg",
     "popular": false
   },
   {
@@ -741,7 +741,7 @@
     "title": "The Odyssey",
     "director": "Christopher Nolan",
     "genre": "Action",
-    "imdb_rating": 8.5,
+    "imdb_rating": 8.4,
     "year": 2026,
     "logo_url": "https://image.tmdb.org/t/p/original/nKjmavzR9ESsFtsvHuOoR3SGIwk.png",
     "image_url": "https://image.tmdb.org/t/p/original/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg",
@@ -987,9 +987,9 @@
     "imdb_rating": 8.2,
     "year": 2026,
     "logo_url": "https://image.tmdb.org/t/p/original/aMNp2MnyhG9RJ9dygwhxTt6lzgs.png",
-    "image_url": "https://image.tmdb.org/t/p/w500/b4wekkUaxExzOeGe7hKXzhnyXHt.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/original/bU206dN0ucfOFRK17OXabkdHKFC.jpg",
-    "popular": false
+    "image_url": "https://image.tmdb.org/t/p/original/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/whWksgptfe5RkPhPRf0n9v3U5ES.jpg",
+    "popular": true
   },
   {
     "title": "Everything Everywhere All at Once",
@@ -1116,7 +1116,7 @@
     "title": "The Dark Knight",
     "director": "Christopher Nolan",
     "genre": "Action",
-    "imdb_rating": 9,
+    "imdb_rating": 9.1,
     "year": 2008,
     "logo_url": "https://image.tmdb.org/t/p/original/nKJFT72I3uR0TCNFh6TksDvf3Ix.svg",
     "image_url": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
@@ -1190,6 +1190,17 @@
     "popular": false
   },
   {
+    "title": "The Dark Knight Rises",
+    "director": "Christopher Nolan",
+    "genre": "Action",
+    "imdb_rating": 8.4,
+    "year": 2012,
+    "logo_url": "https://image.tmdb.org/t/p/original/jhHj9RhGHdgTeGJv6qAkA1wWpAY.svg",
+    "image_url": "https://image.tmdb.org/t/p/original/vzvKcPQ4o7TjWeGIn0aGC9FeVNu.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/6tmd5NL82JwDctIMhiogaSAUWwO.jpg",
+    "popular": false
+  },
+  {
     "title": "Spider-Man: Into the Spider-Verse",
     "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
     "genre": "Animation",
@@ -1256,6 +1267,17 @@
     "popular": false
   },
   {
+    "title": "Dunkirk",
+    "director": "Christopher Nolan",
+    "genre": "War",
+    "imdb_rating": 7.8,
+    "year": 2017,
+    "logo_url": "https://image.tmdb.org/t/p/original/d23hHJ9S84b1vtXXOCE0VI17ckD.png",
+    "image_url": "https://image.tmdb.org/t/p/original/8TbAQlEpRG2EQsjMNR76IYGNuki.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/sxLJUNBDj1ohdYTRxULxXHZrStP.jpg",
+    "popular": false
+  },
+  {
     "title": "One Flew Over the Cuckoo's Nest",
     "director": "Milos Forman",
     "genre": "Drama",
@@ -1309,6 +1331,17 @@
     "image_url": "https://image.tmdb.org/t/p/w500/99X2SgyFunJFXGAYnDv3sb9pnUD.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/original/hy0Hx9fMPk2fmw26Li60z1S2giU.jpg",
     "popular": true
+  },
+  {
+    "title": "Tenet",
+    "director": "Christopher Nolan",
+    "genre": "Sci-Fi",
+    "imdb_rating": 7.3,
+    "year": 2020,
+    "logo_url": "https://image.tmdb.org/t/p/original/kzG6oo1JhVapC8kMQHdNVGI9ROp.png",
+    "image_url": "https://image.tmdb.org/t/p/original/wRlgk7KLJNUd1Kgct5FimlGgviK.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/gPucRIw0n3MPv7r1FEdMpngNXr7.jpg",
+    "popular": false
   },
   {
     "title": "Arrival",
@@ -1430,5 +1463,16 @@
     "image_url": "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/w1280/kWYfW2Re0rUDE6IHhy4CRuKWeFr.jpg",
     "popular": true
+  },
+  {
+    "title": "Batman Begins",
+    "director": "Christopher Nolan",
+    "genre": "Action",
+    "imdb_rating": 8.2,
+    "year": 2005,
+    "logo_url": "https://image.tmdb.org/t/p/original/kmqIeEVaVfbBCgV9WFPuLUl84uW.png",
+    "image_url": "https://image.tmdb.org/t/p/original/1P3ZyEq02wcTMd3iE4ebtLvncvH.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/original/9IIBboV7MCT0bTxzXHmWK1Hq558.jpg",
+    "popular": false
   }
 ]
